@@ -17,6 +17,19 @@ body {
     font-weight: bold;
 }
 
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: black !important;
+}
 
 /**************
 ABOUT
@@ -52,7 +65,7 @@ ABOUT
 
 #about .email {
     font-size: 14px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 #about .icons {
@@ -63,4 +76,27 @@ ABOUT
 #about .icons a {
     color: rgb(70, 70, 70);
     text-decoration: none;
+}
+
+/**************
+
+PROJECTS
+
+***************/
+
+#projects{
+    margin: 60px auto;
+    width: 80%;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects .card img {
+    width: 100%;
+}
+
+#projects .card-title {
+    font-weight: bold;
 }
